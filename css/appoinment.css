@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background-color: rgba(248, 244, 241);
+}
+
+hr {
+  border: none;
+  color: #000;
+  background-color: #000;
+  height: 1px;
+}
+
+/* Header */
+.header {
+  padding-top: 30px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-nav .menu {
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-nav .menu .header-menu__item .active {
+  color: #bda6c1;
+}
+
+.header-menu__item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.header-menu__link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+}
+
+.header-menu__link:hover {
+  color: #bda6c1;
+  transition: color 0.3s ease;
+}
+
+/* Services */
+.services {
+  font-family: serif;
+  background-color: rgba(248, 244, 241);
+  padding-top: 60px;
+}
+
+.services-container {
+  max-width: 980px;
+  min-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.service-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  max-width: 290px;
+  border: 1px solid rgba(48, 29, 16, 0.2);
+}
+
+.service img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.service img:hover {
+  transition: filter 0.5s linear;
+  filter: opacity(0.7);
+}
+
+.services-title {
+  font-size: 32px;
+  color: #301D10;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-footer {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 24px;
+  color: 301D10;
+}
+
+.service-text {
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(48, 29, 16, 0.2);
+  ;
+}
+
+.service-hour {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.service-price {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.service-btn {
+  color: rgb(198 201 201);
+  background-color: rgb(163, 74, 33);
+  border-width: 0px;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: serif;
+}
+
+.service-btn:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(248, 244, 241);
+  padding: 100px 0;
+}
+
+.footer-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.footer-email {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #301D10;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-vk-link {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+hr {
+  border: none;
+  color: #000;
+  background-color: #000;
+  height: 1px;
+}
+.header {
+  padding-top: 30px;
+  background-color: rgba(248, 244, 241);
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.header-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+.header-nav .menu {
+  display: flex;
+  margin: 0 auto;
+}
+.header-nav .menu .header-menu__item .active {
+  color: #bda6c1;
+}
+.header-menu__item {
+  list-style-type: none;
+  margin: 10px;
+}
+.header-menu__link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+}
+.header-menu__link:hover {
+  color: #bda6c1;
+  transition: color 0.3s ease;
+}
+
+/* Pages Container */
+.pages-container {
+  font-style: italic;
+}
+
+/* Travel */
+.travel {
+  background-color: rgba(248, 244, 241, 1);
+  padding: 60px;
+  font-style: normal;
+}
+.travel-title {
+  font-size: 72px;
+  line-height: 1.25em;
+  text-align: center;
+  color: #301D10;
+  font-weight: 100;
+}
+.travel-wild-hills {
+  font-weight: bold;
+  color:rgb(48, 29, 16);
+}
+.travel-text {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.67em;
+  font-size: 20px;
+}
+
+/* BG Tree */
+.bg-tree {
+  height: 645px;
+}
+.bg-tree-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Contents */
+.content-container {
+  width: calc(100% - 60px - 60px);
+  margin: 0 auto;
+}
+.content {
+  background-color: rgba(198, 201, 201, 1);
+}
+.content-title {
+  text-align: center;
+  padding: 100px 0 10px 0;
+  font-size: 34px;
+  font-style: italic;
+  color: #6d3116;
+}
+.content-image {
+  text-align: center;
+  padding-bottom: 200px;
+}
+.content-image-flex img {
+  position: relative;
+}
+.content-image_derbent {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.content-image_lun {
+  left: -50px;
+  right: 0;
+  top: 174px;
+  bottom: 0;
+}
+.content-information {
+  padding: 60px 0 60px 55px;
+  background-color: rgb(248, 244, 241);
+  color: #301D10;
+  font-size: 20px;
+  font-family: serif;
+  line-height: normal;
+  font-stretch: 100%;
+}
+.content-information__text {
+  width: 994px;
+}
+.content-information__story {
+  font-size: 38px;
+  color: #301D10;
+  font-style: normal;
+}
+
+/* Services */
+.services {
+  font-family: serif;
+  background-color: rgba(248, 244, 241);
+  padding-top: 60px;
+}
+.services-container {
+  width: calc(100% - 30px - 30px);
+  min-width: auto;
+  margin: 0 auto;
+  padding: 20px;
+}
+.service-content {
+  display: flex;
+  justify-content: space-between;
+}
+.service {
+  max-width: 577px;
+  border: 1px solid rgba(48, 29, 16, 0.2);
+}
+.service img {
+  width: 100%;
+  cursor: pointer;
+}
+.service img:hover {
+  transition: filter 0.5s linear;
+  filter: opacity(0.7);
+}
+.services-title {
+  font-size: 32px;
+  color: #301D10;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.service-footer {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 24px;
+  color: 301D10;
+}
+.service-text {
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(48, 29, 16, 0.2);;
+}
+.service-hour {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.service-price {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.service-btn {
+  color: rgb(198 201 201);
+  background-color: rgb(163, 74, 33);
+  border-width: 0px;
+  padding: 8px 16px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: serif;
+}
+.service-btn:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+/* All Video */
+.all-video {
+  background-color: rgba(248, 244, 241);
+  padding-top: 60px;
+}
+.all-video-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.all-video-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all-video-title {
+  font-family: serif;
+  font: 18px;
+  color: rgb(48, 29, 16);
+  font-style: normal;
+}
+.all-video-btns {
+  display: flex;
+  align-items: center;
+}
+.all-video-btn-share {
+  border: none;
+  border-right: 1px solid rgba(48, 29, 16, 0.2);
+  background-color: #ffffff;
+  padding-right: 20px;
+  
+}
+.all-video-btn-share svg {
+  color: rgba(163, 74, 33, 0.8);
+  font-size: 24px;
+  cursor: pointer;
+}
+.all-video-btn {
+  border: none;
+  background-color: #ffffff;
+  padding-left: 20px;
+  
+}
+.all-video-btn svg {
+  color: rgba(163, 74, 33, 0.8);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Contacts */
+.contacts {
+  background-color: rgba(248, 244, 241);
+  padding-top: 60px;
+}
+.contacts-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.contacts-cols {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-title {
+  font-size: 40px;
+  color: #301D10;
+  margin-bottom: 20px;
+  line-height: 1.35em;
+}
+.address {
+  font-size: 18px;
+  color: #301D10;
+  font-family: serif;
+  margin-bottom: 20px;
+  line-height: 1.875em;
+}
+.email {
+  font-size: 18px;
+  color: #301D10;
+  font-family: serif;
+  margin-bottom: 20px;
+  line-height: 1.875em;
+}
+.phone-number {
+  font-size: 18px;
+  color: #301D10;
+  font-family: serif;
+  line-height: 1.875em;
+  text-decoration: none;
+}
+.contact-form {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 0%;
+  border: 1px solid #000;
+  outline: none;
+  background-color: rgba(248, 244, 241);
+  padding: 3px 3px 3px 12px;
+  height: 50px;
+  font-size: 16px;
+}
+.contact-forms-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact-forms-flex .contact-form-right {
+  margin-right: 5px;
+}
+.contact-btn {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f8f4f1;
+  background-color: #301D10;
+  cursor: pointer;
+  height: 47px;
+  width: 142px;
+  float: right;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(248, 244, 241);
+  padding: 100px 0;
+}
+.footer-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.footer-email {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #301D10;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-vk-link {
+  display: block;
+  text-align: center;
+}
