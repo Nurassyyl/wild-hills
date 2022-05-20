@@ -7,23 +7,33 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Raleway:wght@200&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/appoinment.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <script src="js/menu.js"></script>
   <title>Онлайн-запись | Wild Hills</title>
 </head>
 <body>
   <header class="header">
     <div class="container">
       <div class="header-logo">
-        <img src="img/logo.webp" alt="Logo Wild-Hills">
+        <a href="index.html"><img src="img/logo.webp" alt="Logo Wild-Hills"></a>
+        <button class="menu-button">
+          &#9776
+        </button>
       </div>
       <hr>
-      <nav class="header-nav">
-        <ul class="menu">
-          <li class="header-menu__item"><a class="header-menu__link" href="index.html">Главная</a></li>
-          <li class="header-menu__item"><a class="header-menu__link" href="rest.html">Отдых</a></li>
-          <li class="header-menu__item"><a class="header-menu__link active" href="appoinment.html">Онлайн-запись</a></li>
-        </ul>
+      <div class="header-flex">
+        <button class="menu-close">
+          &times
+        </button>
+        <nav class="header-nav">
+          <ul class="menu">
+            <li class="header-menu__item"><a class="header-menu__link" href="index.html">Главная</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="rest.html">Отдых</a></li>
+            <li class="header-menu__item"><a class="header-menu__link active" href="appoinment.html">Онлайн-запись</a></li>
+          </ul>
+        </nav>
         <div class="header-vk__link"><a href="https://vk.com/id335715864"><img src="img/vk.webp" alt="VK"></a></div>
-      </nav>
+      </div>
     </div>
   </header>
 

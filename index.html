@@ -9,31 +9,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Raleway:wght@200&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/menu.js" defer></script>
   <title>Главная | Wild Hills</title>
 </head>
 <body>
    <header class="header">
      <div class="container">
        <div class="header-logo">
-          <img src="img/logo.webp" alt="Logo Wild-Hills">
+          <a href="index.html"><img src="img/logo.webp" alt="Logo Wild-Hills"></a>
           <button class="menu-button">
-            <span class="menu-button-text">меню</span>
-            <img src="img/svg-files/frame_3.svg" alt="icon: burger-menu" class="menu-button-icon">
+            &#9776
           </button>
-          <!-- <button class="menu-close">
-            <span class="menu-close-text">закрыть</span>
-            <img src="img/svg-files/close_menu.svg" alt="icon: close-menu" class="menu-close-icon">
-          </button> -->
        </div>
         <hr>
-        <nav class="header-nav">
-          <ul class="menu">
-            <li class="header-menu__item"><a class="header-menu__link active" href="index.html">Главная</a></li>
-            <li class="header-menu__item"><a class="header-menu__link" href="rest.html">Отдых</a></li>
-            <li class="header-menu__item"><a class="header-menu__link" href="appoinment.html">Онлайн-запись</a></li>
-          </ul>
+        <div class="header-flex">
+          <button class="menu-close">
+            &times
+          </button>
+          <nav class="header-nav">
+              <ul class="menu">
+                <li class="header-menu__item"><a class="header-menu__link active" href="index.html">Главная</a></li>
+                <li class="header-menu__item"><a class="header-menu__link" href="rest.html">Отдых</a></li>
+                <li class="header-menu__item"><a class="header-menu__link" href="appoinment.html">Онлайн-запись</a></li>
+              </ul>
+          </nav>
           <div class="header-vk__link"><a href="https://vk.com/id335715864"><img src="img/vk.webp" alt="VK"></a></div>
-        </nav>
+        </div>
      </div>
    </header>
   <main class="pages-container">
