@@ -307,7 +307,7 @@ hr {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  top: 45%;
+  top: 35%;
 }
 .prev:hover,
 .next:hover {
@@ -480,9 +480,6 @@ hr {
   .all-video-container {
     max-width: 650px;
   }
-  .all-video-slides {
-
-  }
   .all-video-slide video {
     height: 400px;
   }
@@ -525,6 +522,10 @@ hr {
   }
   .all-video-slide video {
     height: 300px;
+  }
+  .prev, .next {
+    font-size: 20px;
+    padding: 10px;
   }
 }
 
@@ -625,6 +626,16 @@ hr {
 @media (max-width: 480px) {
   .container {
     max-width: 400px;
+  }
+  .travel {
+    padding: 30px;
+  }
+  .travel-title {
+    font-size: 32px;
+    line-height: unset;
+  }
+  .travel-text {
+    font-size: 16px;
   }
 }
 
